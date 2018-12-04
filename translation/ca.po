@@ -161,7 +161,7 @@ msgstr "Velocitat dels ventiladors als ponts"
 
 #: xs/src/libslic3r/PrintConfig.cpp:95
 msgid "This fan speed is enforced during all bridges and overhangs."
-msgstr "La velocitat d'aquest ventilador és forçada al llarg de tots els ponts i desplaçaments volats."
+msgstr "La velocitat d'aquest ventilador és forçada al llarg de tots els ponts i les construccions volades."
 
 #: xs/src/libslic3r/PrintConfig.cpp:103
 msgid "Bridge flow ratio"
@@ -171,7 +171,7 @@ msgstr "Ràtio de flux de pont"
 #: xs/src/libslic3r/PrintConfig.cpp:678 xs/src/libslic3r/PrintConfig.cpp:1559
 msgid "Advanced"
 msgstr "Avançat"
-#CHECKPOINT
+
 #: xs/src/libslic3r/PrintConfig.cpp:105
 msgid ""
 "This factor affects the amount of plastic for bridging. You can decrease it "
@@ -179,14 +179,14 @@ msgid ""
 "settings are usually good and you should experiment with cooling (use a fan) "
 "before tweaking this."
 msgstr ""
-"This factor affects the amount of plastic for bridging. You can decrease it "
-"slightly to pull the extrudates and prevent sagging, although default "
-"settings are usually good and you should experiment with cooling (use a fan) "
-"before tweaking this."
+"Aquest factor afecta la quantitat de plàstic per als ponts. Pots reduir-ho lleugerament "
+"per fer retrocedir l'extrusor i prevenir els fils caiguts, encara que la "
+"configuració per defecta acostuma a ser bona i pots experimentar amb el refredament "
+"(utilitza un ventilador) abans d'ajustar això."
 
 #: xs/src/libslic3r/PrintConfig.cpp:111
 msgid "Bridges"
-msgstr "Bridges"
+msgstr "Ponts"
 
 #: xs/src/libslic3r/PrintConfig.cpp:113 xs/src/libslic3r/PrintConfig.cpp:240
 #: xs/src/libslic3r/PrintConfig.cpp:553 xs/src/libslic3r/PrintConfig.cpp:576
@@ -196,23 +196,23 @@ msgstr "Bridges"
 #: xs/src/libslic3r/PrintConfig.cpp:1156 xs/src/libslic3r/PrintConfig.cpp:1209
 #: xs/src/libslic3r/PrintConfig.cpp:1491 xs/src/libslic3r/PrintConfig.cpp:1512
 msgid "Speed"
-msgstr "Speed"
+msgstr "Velocitat"
 
 #: xs/src/libslic3r/PrintConfig.cpp:114
 msgid "Speed for printing bridges."
-msgstr "Speed for printing bridges."
+msgstr "Velocitat en imprimir ponts."
 
 #: xs/src/libslic3r/PrintConfig.cpp:124
 msgid "Brim connections width"
-msgstr "Brim connections width"
+msgstr "Ample de les connexions de les vores de base"
 
 #: xs/src/libslic3r/PrintConfig.cpp:125 xs/src/libslic3r/PrintConfig.cpp:134
 #: xs/src/libslic3r/PrintConfig.cpp:701 xs/src/libslic3r/PrintConfig.cpp:779
 #: xs/src/libslic3r/PrintConfig.cpp:1118 xs/src/libslic3r/PrintConfig.cpp:1127
 #: xs/src/libslic3r/PrintConfig.cpp:1135
 msgid "Skirt and brim"
-msgstr "Skirt and brim"
-
+msgstr "Faldilles i vores"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:126
 msgid ""
 "If set to a positive value, straight connections will be built on the first "
