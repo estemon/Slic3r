@@ -4,8 +4,8 @@ msgstr ""
 "POT-Creation-Date: 2017-03-29 00:02-0600\n"
 "PO-Revision-Date: 2017-03-29 00:08-0600\n"
 "Last-Translator: \n"
-"Language-Team: Joseph Lenox <lenox.joseph@gmail.com>\n"
-"Language: en_US\n"
+"Language-Team: estemon <estemon@gmail.com>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,27 +20,27 @@ msgstr ""
 
 #: xs/src/libslic3r/PrintConfig.cpp:18
 msgid "Rectilinear"
-msgstr "Rectilinear"
+msgstr "Rectilini"
 
 #: xs/src/libslic3r/PrintConfig.cpp:19
 msgid "Concentric"
-msgstr "Concentric"
+msgstr "Concèntric"
 
 #: xs/src/libslic3r/PrintConfig.cpp:20
 msgid "Hilbert Curve"
-msgstr "Hilbert Curve"
+msgstr "Corba de Hilbert"
 
 #: xs/src/libslic3r/PrintConfig.cpp:21
 msgid "Archimedean Chords"
-msgstr "Archimedean Chords"
+msgstr "Cordes arquimedianes"
 
 #: xs/src/libslic3r/PrintConfig.cpp:22
 msgid "Octagram Spiral"
-msgstr "Octagram Spiral"
+msgstr "Espiral d'octagram"
 
 #: xs/src/libslic3r/PrintConfig.cpp:27
 msgid "Avoid crossing perimeters"
-msgstr "Avoid crossing perimeters"
+msgstr "Evita creuar perímetres"
 
 #: xs/src/libslic3r/PrintConfig.cpp:28 xs/src/libslic3r/PrintConfig.cpp:77
 #: xs/src/libslic3r/PrintConfig.cpp:252 xs/src/libslic3r/PrintConfig.cpp:259
@@ -50,8 +50,8 @@ msgstr "Avoid crossing perimeters"
 #: xs/src/libslic3r/PrintConfig.cpp:1080 xs/src/libslic3r/PrintConfig.cpp:1230
 #: xs/src/libslic3r/PrintConfig.cpp:1442 xs/src/libslic3r/PrintConfig.cpp:1503
 msgid "Layers and Perimeters"
-msgstr "Layers and Perimeters"
-
+msgstr "Capes i Perímetres"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:29
 msgid ""
 "Optimize travel moves in order to minimize the crossing of perimeters. This "
