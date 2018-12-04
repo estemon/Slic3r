@@ -51,46 +51,46 @@ msgstr "Evita creuar perímetres"
 #: xs/src/libslic3r/PrintConfig.cpp:1442 xs/src/libslic3r/PrintConfig.cpp:1503
 msgid "Layers and Perimeters"
 msgstr "Capes i Perímetres"
-#CHECKPOINT
+
 #: xs/src/libslic3r/PrintConfig.cpp:29
 msgid ""
 "Optimize travel moves in order to minimize the crossing of perimeters. This "
 "is mostly useful with Bowden extruders which suffer from oozing. This "
 "feature slows down both the print and the G-code generation."
 msgstr ""
-"Optimize travel moves in order to minimize the crossing of perimeters. This "
-"is mostly useful with Bowden extruders which suffer from oozing. This "
-"feature slows down both the print and the G-code generation."
+"Optimitza els moviments en el desplaçament per minimitzar el creuament de perímetres. "
+"Això és generalment útil amb extrusors Bowden, els quals acostumen a deixar filament en els viatges. "
+"Aquesta característica alenteix la impressió i també la generació del G-code."
 
 #: xs/src/libslic3r/PrintConfig.cpp:34
 msgid "Bed shape"
-msgstr "Bed shape"
+msgstr "Forma del llit"
 
 #: xs/src/libslic3r/PrintConfig.cpp:44
 msgid "Has heated bed"
-msgstr "Has heated bed"
+msgstr "Té llit calent"
 
 #: xs/src/libslic3r/PrintConfig.cpp:45
 msgid ""
 "Unselecting this will suppress automatic generation of bed heating gcode."
 msgstr ""
-"Unselecting this will suppress automatic generation of bed heating gcode."
+"No seleccionar això eliminarà automàticament el gcode per escalfar el llit."
 
 #: xs/src/libslic3r/PrintConfig.cpp:50 xs/src/libslic3r/PrintConfig.cpp:1428
 msgid "Other layers"
-msgstr "Other layers"
+msgstr "Altres capes"
 
 #: xs/src/libslic3r/PrintConfig.cpp:51
 msgid "Bed temperature for layers after the first one."
-msgstr "Bed temperature for layers after the first one."
+msgstr "Temperatura del llit per les capes posteriors a la primera."
 
 #: xs/src/libslic3r/PrintConfig.cpp:53
 msgid "Bed temperature"
-msgstr "Bed temperature"
+msgstr "Temperatura del llit"
 
 #: xs/src/libslic3r/PrintConfig.cpp:59
 msgid "Before layer change G-code"
-msgstr "Before layer change G-code"
+msgstr "Abans de la capa, canvieu el gcode"
 
 #: xs/src/libslic3r/PrintConfig.cpp:60
 msgid ""
@@ -98,17 +98,17 @@ msgid ""
 "Note that you can use placeholder variables for all Slic3r settings as well "
 "as [layer_num] and [layer_z]."
 msgstr ""
-"This custom code is inserted at every layer change, right before the Z move. "
-"Note that you can use placeholder variables for all Slic3r settings as well "
-"as [layer_num] and [layer_z]."
+"Aquest codi personalitzat s'inserta a cada canvi de capa, just abans que es mogui la Z. "
+"Pots utilitzar variables del marcador de posició per tota configuració de l'Slic3r "
+"com, per exemple, [layer_num] i [layer_z]."
 
 #: xs/src/libslic3r/PrintConfig.cpp:68 xs/src/libslic3r/PrintConfig.cpp:76
 msgid "Bottom"
-msgstr "Bottom"
+msgstr "Base"
 
 #: xs/src/libslic3r/PrintConfig.cpp:69
 msgid "Bottom infill pattern"
-msgstr "Bottom infill pattern"
+msgstr "Patró per omplir la base"
 
 #: xs/src/libslic3r/PrintConfig.cpp:70 xs/src/libslic3r/PrintConfig.cpp:216
 #: xs/src/libslic3r/PrintConfig.cpp:425 xs/src/libslic3r/PrintConfig.cpp:437
@@ -119,59 +119,59 @@ msgstr "Bottom infill pattern"
 #: xs/src/libslic3r/PrintConfig.cpp:1168 xs/src/libslic3r/PrintConfig.cpp:1185
 #: xs/src/libslic3r/PrintConfig.cpp:1482
 msgid "Infill"
-msgstr "Infill"
+msgstr "Ompliment"
 
 #: xs/src/libslic3r/PrintConfig.cpp:71
 msgid ""
 "Infill pattern for bottom layers. This only affects the external visible "
 "layer, and not its adjacent solid shells."
 msgstr ""
-"Infill pattern for bottom layers. This only affects the external visible "
-"layer, and not its adjacent solid shells."
+"Patró d'ompliment per a les capes inferiors. Això només afecta la capa visible "
+"externa, no el seu perímetre sòlid adjacent."
 
 #: xs/src/libslic3r/PrintConfig.cpp:78
 msgid "Number of solid layers to generate on bottom surfaces."
-msgstr "Number of solid layers to generate on bottom surfaces."
+msgstr "Nombre de capes sòlides per generar a les superfícies inferiors."
 
 #: xs/src/libslic3r/PrintConfig.cpp:80
 msgid "Bottom solid layers"
-msgstr "Bottom solid layers"
+msgstr "Capes sòlides inferiors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:85
 msgid "Bridge"
-msgstr "Bridge"
+msgstr "Pont"
 
 #: xs/src/libslic3r/PrintConfig.cpp:86 xs/src/libslic3r/PrintConfig.cpp:160
 #: xs/src/libslic3r/PrintConfig.cpp:514 xs/src/libslic3r/PrintConfig.cpp:625
 #: xs/src/libslic3r/PrintConfig.cpp:857
 msgid "Speed > Acceleration"
-msgstr "Speed > Acceleration"
+msgstr "Velocitat > Acceleració"
 
 #: xs/src/libslic3r/PrintConfig.cpp:87
 msgid ""
 "This is the acceleration your printer will use for bridges. Set zero to "
 "disable acceleration control for bridges."
 msgstr ""
-"This is the acceleration your printer will use for bridges. Set zero to "
-"disable acceleration control for bridges."
+"Aquesta és l'acceleració que la teva impressora utilitzarà per als ponts. Estableix-ho a zero "
+"per desactivar el control d'acceleració per als ponts."
 
 #: xs/src/libslic3r/PrintConfig.cpp:94
 msgid "Bridges fan speed"
-msgstr "Bridges fan speed"
+msgstr "Velocitat dels ventiladors als ponts"
 
 #: xs/src/libslic3r/PrintConfig.cpp:95
 msgid "This fan speed is enforced during all bridges and overhangs."
-msgstr "This fan speed is enforced during all bridges and overhangs."
+msgstr "La velocitat d'aquest ventilador és forçada al llarg de tots els ponts i desplaçaments volats."
 
 #: xs/src/libslic3r/PrintConfig.cpp:103
 msgid "Bridge flow ratio"
-msgstr "Bridge flow ratio"
+msgstr "Ràtio de flux de pont"
 
 #: xs/src/libslic3r/PrintConfig.cpp:104 xs/src/libslic3r/PrintConfig.cpp:147
 #: xs/src/libslic3r/PrintConfig.cpp:678 xs/src/libslic3r/PrintConfig.cpp:1559
 msgid "Advanced"
-msgstr "Advanced"
-
+msgstr "Avançat"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:105
 msgid ""
 "This factor affects the amount of plastic for bridging. You can decrease it "
