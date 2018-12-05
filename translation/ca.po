@@ -212,34 +212,34 @@ msgstr "Ample de les connexions de les vores de base"
 #: xs/src/libslic3r/PrintConfig.cpp:1135
 msgid "Skirt and brim"
 msgstr "Faldilles i vores"
-#CHECKPOINT
+
 #: xs/src/libslic3r/PrintConfig.cpp:126
 msgid ""
 "If set to a positive value, straight connections will be built on the first "
 "layer between adjacent objects."
 msgstr ""
-"If set to a positive value, straight connections will be built on the first "
-"layer between adjacent objects."
+"Si introdueixes un valor positiu, les connexions rectes es construiran a la "
+"primera capa entre objectes adjacents."
 
 #: xs/src/libslic3r/PrintConfig.cpp:133
 msgid "Exterior brim width"
-msgstr "Exterior brim width"
+msgstr "Amples de la vora exterior"
 
 #: xs/src/libslic3r/PrintConfig.cpp:135
 msgid ""
 "Horizontal width of the brim that will be printed around each object on the "
 "first layer."
 msgstr ""
-"Horizontal width of the brim that will be printed around each object on the "
-"first layer."
+"Ample horitzontal de la vora que s'imprimirà al voltant de cada objecte "
+"a la primera capa."
 
 #: xs/src/libslic3r/PrintConfig.cpp:142
 msgid "Compatible printers"
-msgstr "Compatible printers"
+msgstr "Impressores compatibles"
 
 #: xs/src/libslic3r/PrintConfig.cpp:146
 msgid "Complete individual objects"
-msgstr "Complete individual objects"
+msgstr "Objectes individuals complets"
 
 #: xs/src/libslic3r/PrintConfig.cpp:148
 msgid ""
@@ -248,27 +248,28 @@ msgid ""
 "This feature is useful to avoid the risk of ruined prints. Slic3r should "
 "warn and prevent you from extruder collisions, but beware."
 msgstr ""
-"When printing multiple objects or copies, this feature will complete each "
-"object before moving onto next one (and starting it from its bottom layer). "
-"This feature is useful to avoid the risk of ruined prints. Slic3r should "
-"warn and prevent you from extruder collisions, but beware."
+"Quan s'imprimeixen múltiples objectes o còpies, aquesta caracterstica "
+"completarà cada objecte abans de moure's al següent (i començant, de nou, "
+"per la seva capa inferior). Aquesta característica és útil per evitar el "
+"risc d'impressions malmeses. Slic3r hauria d'avisar-te i prevenir-te "
+"per possibles col·lisions de l'extrusor, però ves amb compte."
 
 #: xs/src/libslic3r/PrintConfig.cpp:153
 msgid "Enable auto cooling"
-msgstr "Enable auto cooling"
+msgstr "Activa refrigeració automàtica"
 
 #: xs/src/libslic3r/PrintConfig.cpp:154
 msgid ""
 "This flag enables the automatic cooling logic that adjusts print speed and "
 "fan speed according to layer printing time."
 msgstr ""
-"This flag enables the automatic cooling logic that adjusts print speed and "
-"fan speed according to layer printing time."
+"Aquest indicador permet la lògica de refrigeració automàtica que ajusta la "
+"velocitat d'impressió i del ventilador segons el temps d'impressió de capa."
 
 #: xs/src/libslic3r/PrintConfig.cpp:159
 msgid "Default"
-msgstr "Default"
-
+msgstr "Per defecte"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:161
 msgid ""
 "This is the acceleration your printer will be reset to after the role-"
