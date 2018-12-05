@@ -269,36 +269,36 @@ msgstr ""
 #: xs/src/libslic3r/PrintConfig.cpp:159
 msgid "Default"
 msgstr "Per defecte"
-#CHECKPOINT
+
 #: xs/src/libslic3r/PrintConfig.cpp:161
 msgid ""
 "This is the acceleration your printer will be reset to after the role-"
 "specific acceleration values are used (perimeter/infill). Set zero to "
 "prevent resetting acceleration at all."
 msgstr ""
-"This is the acceleration your printer will be reset to after the role-"
-"specific acceleration values are used (perimeter/infill). Set zero to "
-"prevent resetting acceleration at all."
+"Aquesta és l'acceleració a la qual la teva impressora es reiniciarà després "
+"d'utilitzar els valors específics d'acceleració que s'utilitzen (perímetres/"
+"ompiments). Posa-ho a zero per evitar reiniciar l'acceleració."
 
 #: xs/src/libslic3r/PrintConfig.cpp:168
 msgid "Disable fan for the first"
-msgstr "Disable fan for the first"
+msgstr "Desactiva ventilador per la/les primera/es"
 
 #: xs/src/libslic3r/PrintConfig.cpp:169
 msgid ""
 "This disables the fan completely for the first N layers "
 "to aid in the adhesion of media to the bed. (default 3)"
 msgstr ""
-"This disables the fan completely for the first N layers "
-"to aid in the adhesion of media to the bed. (default 3)"
+"Aix desactiva completament el ventilador per les primeres N capes "
+"per afavorir l'adhesió del material al llit. (per defecte, 3)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:170
 msgid "layers"
-msgstr "layers"
+msgstr "capa/es"
 
 #: xs/src/libslic3r/PrintConfig.cpp:177
 msgid "Don't support bridges"
-msgstr "Don't support bridges"
+msgstr "No recolzar els ponts"
 
 #: xs/src/libslic3r/PrintConfig.cpp:178 xs/src/libslic3r/PrintConfig.cpp:933
 #: xs/src/libslic3r/PrintConfig.cpp:942 xs/src/libslic3r/PrintConfig.cpp:1270
@@ -310,35 +310,36 @@ msgstr "Don't support bridges"
 #: xs/src/libslic3r/PrintConfig.cpp:1406 xs/src/libslic3r/PrintConfig.cpp:1408
 #: xs/src/libslic3r/PrintConfig.cpp:1419
 msgid "Support material"
-msgstr "Support material"
+msgstr "Material de suport"
 
 #: xs/src/libslic3r/PrintConfig.cpp:179
 msgid ""
 "Experimental option for preventing support material from being generated "
 "under bridged areas."
 msgstr ""
-"Experimental option for preventing support material from being generated "
-"under bridged areas."
+"Opció experimental per prevenir que es generi material de suport "
+"sota les zones de pont."
 
 #: xs/src/libslic3r/PrintConfig.cpp:184
 msgid "Distance between copies"
-msgstr "Distance between copies"
+msgstr "Distància entre còpies"
 
 #: xs/src/libslic3r/PrintConfig.cpp:185
 msgid "Distance used for the auto-arrange feature of the plater."
-msgstr "Distance used for the auto-arrange feature of the plater."
+msgstr "Distància utilitzada per la funció d'auto organització de la base."
 
 #: xs/src/libslic3r/PrintConfig.cpp:193 xs/src/libslic3r/PrintConfig.cpp:202
 msgid "End G-code"
-msgstr "End G-code"
+msgstr "Finalitza G-code"
 
 #: xs/src/libslic3r/PrintConfig.cpp:194
 msgid ""
 "This end procedure is inserted at the end of the output file. Note that you "
 "can use placeholder variables for all Slic3r settings."
 msgstr ""
-"This end procedure is inserted at the end of the output file. Note that you "
-"can use placeholder variables for all Slic3r settings."
+"Aquest procediment de finalització s'inserta al final de l'arxiu de sortida. "
+"Tingues en compte que pots utilitzar variables de marcador de posició "
+"per a totes les configuracions de l'Slic3r."
 
 #: xs/src/libslic3r/PrintConfig.cpp:203
 msgid ""
@@ -347,37 +348,37 @@ msgid ""
 "Slic3r settings. If you have multiple extruders, the gcode is processed in "
 "extruder order."
 msgstr ""
-"This end procedure is inserted at the end of the output file, before the "
-"printer end gcode. Note that you can use placeholder variables for all "
-"Slic3r settings. If you have multiple extruders, the gcode is processed in "
-"extruder order."
+"Aquest procediment de finalització s'inserta al final de l'arxiu de sortida. "
+"Tingues en compte que pots utilitzar variables de marcador de posició "
+"per a totes les configuracions de l'Slic3r. Si utilitzes múltiples extrusors "
+"el gcode es processa en l'ordre dels extrusors."
 
 #: xs/src/libslic3r/PrintConfig.cpp:215
 msgid "Top/bottom fill pattern"
-msgstr "Top/bottom fill pattern"
+msgstr "Patró d'ompliment de les capes inferiors/superiors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:217
 msgid ""
 "Fill pattern for top/bottom infill. This only affects the external visible "
 "layer, and not its adjacent solid shells."
 msgstr ""
-"Fill pattern for top/bottom infill. This only affects the external visible "
-"layer, and not its adjacent solid shells."
+"Patró d'ompliment per les capes inferiors/superiors. Això només afecta la "
+"capa visible exterior, no el perímetre sòlid exterior."
 
 #: xs/src/libslic3r/PrintConfig.cpp:224 xs/src/libslic3r/PrintConfig.cpp:237
 msgid "↳ external"
-msgstr "↳ external"
+msgstr "↳ extern"
 
 #: xs/src/libslic3r/PrintConfig.cpp:225
 msgid "External perimeters extrusion width"
-msgstr "External perimeters extrusion width"
+msgstr "Ample d'extrusió dels perímetres exteriors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:227 xs/src/libslic3r/PrintConfig.cpp:323
 #: xs/src/libslic3r/PrintConfig.cpp:532 xs/src/libslic3r/PrintConfig.cpp:653
 #: xs/src/libslic3r/PrintConfig.cpp:875 xs/src/libslic3r/PrintConfig.cpp:1196
 #: xs/src/libslic3r/PrintConfig.cpp:1327 xs/src/libslic3r/PrintConfig.cpp:1470
 msgid "Extrusion Width"
-msgstr "Extrusion Width"
+msgstr "Ample d'extrusió"
 
 #: xs/src/libslic3r/PrintConfig.cpp:228
 msgid ""
@@ -386,14 +387,14 @@ msgid ""
 "of the external visible surfaces. If expressed as percentage (for example "
 "200%) it will be computed over layer height."
 msgstr ""
-"Set this to a non-zero value to set a manual extrusion width for external "
-"perimeters. If auto is chosen, a value will be used that maximizes accuracy "
-"of the external visible surfaces. If expressed as percentage (for example "
-"200%) it will be computed over layer height."
+"Estableix això en un valor que no sigui zero per poder definir manualment "
+"l'ample d'extrusió per als perímetres exteriors. Si esculls 'auto', s'utilitzarà "
+"un valor que maximitzi la precisió de les capes visibles exteriors. Si ho expresses "
+"com un percentatge (per exemple 200%) es computarà sobre la altura de la capa."
 
 #: xs/src/libslic3r/PrintConfig.cpp:238
 msgid "External perimeters speed"
-msgstr "External perimeters speed"
+msgstr "Velocitat als perímetres exteriors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:241
 msgid ""
@@ -401,50 +402,50 @@ msgid ""
 "visible ones). If expressed as percentage (for example: 80%) it will be "
 "calculated on the perimeters speed setting above."
 msgstr ""
-"This separate setting will affect the speed of external perimeters (the "
-"visible ones). If expressed as percentage (for example: 80%) it will be "
-"calculated on the perimeters speed setting above."
+"Aquesta funció afectarà la velocitat dels perímetres exteriors (els visibles). "
+"Si ho expresses com un percentatge (per exemple 80%) es calcularà "
+"a la velocitat dels perímetres establerta a dalt."
 
 #: xs/src/libslic3r/PrintConfig.cpp:251
 msgid "External perimeters first"
-msgstr "External perimeters first"
+msgstr "Primer perímetres exteriors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:253
 msgid ""
 "Print contour perimeters from the outermost one to the innermost one instead "
 "of the default inverse order."
 msgstr ""
-"Print contour perimeters from the outermost one to the innermost one instead "
-"of the default inverse order."
+"Imprimeix els perímetres del contorn des del ms extern fins el més interior "
+"en comptes de l'ordre invers, predeterminat."
 
 #: xs/src/libslic3r/PrintConfig.cpp:258
 msgid "Extra perimeters if needed"
-msgstr "Extra perimeters if needed"
+msgstr "Perímetres addicionals, si es necessiten"
 
 #: xs/src/libslic3r/PrintConfig.cpp:260
 msgid "Add more perimeters when needed for avoiding gaps in sloping walls."
-msgstr "Add more perimeters when needed for avoiding gaps in sloping walls."
+msgstr "Afegeix més perímetres quan es necessiti per evitar buits en parets inclinades."
 
 #: xs/src/libslic3r/PrintConfig.cpp:266 xs/src/libslic3r/PrintConfig.cpp:925
 msgid "Extruder"
-msgstr "Extruder"
+msgstr "Extrusor"
 
 #: xs/src/libslic3r/PrintConfig.cpp:267 xs/src/libslic3r/PrintConfig.cpp:644
 #: xs/src/libslic3r/PrintConfig.cpp:828 xs/src/libslic3r/PrintConfig.cpp:865
 #: xs/src/libslic3r/PrintConfig.cpp:1177 xs/src/libslic3r/PrintConfig.cpp:1238
 #: xs/src/libslic3r/PrintConfig.cpp:1318 xs/src/libslic3r/PrintConfig.cpp:1338
 msgid "Extruders"
-msgstr "Extruders"
+msgstr "Extrusors"
 
 #: xs/src/libslic3r/PrintConfig.cpp:268
 msgid ""
 "The extruder to use (unless more specific extruder settings are specified)."
 msgstr ""
-"The extruder to use (unless more specific extruder settings are specified)."
+"L'extrusor a utilitzar (a menys que s'especifiquin paràmetres d'extrusió més específics)."
 
 #: xs/src/libslic3r/PrintConfig.cpp:278
 msgid "Height"
-msgstr "Height"
+msgstr "Altura"
 
 #: xs/src/libslic3r/PrintConfig.cpp:279
 msgid ""
@@ -453,14 +454,14 @@ msgid ""
 "cylinder around your extruder, and it represents the maximum depth the "
 "extruder can peek before colliding with other printed objects."
 msgstr ""
-"Set this to the vertical distance between your nozzle tip and (usually) the "
-"X carriage rods. In other words, this is the height of the clearance "
-"cylinder around your extruder, and it represents the maximum depth the "
-"extruder can peek before colliding with other printed objects."
+"Estableix això a la distància vertical entre la punta de la boquilla i (generalment) "
+"barres de desplaçament de l'eix X. En altres paraules, aquesta és l'alçada del "
+"ciclindre de separació al voltant del teu extrusor, i representa la profunditat màxima "
+"que pot assolir abans de col·lisionar amb altres objectes impresos."
 
 #: xs/src/libslic3r/PrintConfig.cpp:286
 msgid "Radius"
-msgstr "Radius"
+msgstr "Radi"
 
 #: xs/src/libslic3r/PrintConfig.cpp:287
 msgid ""
@@ -483,15 +484,15 @@ msgid ""
 "of each extruder with respect to the first one. It expects positive "
 "coordinates (they will be subtracted from the XY coordinate)."
 msgstr ""
-"If your firmware doesn't handle the extruder displacement you need the G-"
-"code to take it into account. This option lets you specify the displacement "
-"of each extruder with respect to the first one. It expects positive "
-"coordinates (they will be subtracted from the XY coordinate)."
+"Si el firmware de la teva impressora no controla el desplaçament de l'extrusor "
+"necessites el G-code per tenir-lo en compte. Aquesta opció us permet especificar "
+"el desplaçament de cada extrusor respecte del primer. Espera coordenades "
+"positives (es restaran de la coordenada XY)."
 
 #: xs/src/libslic3r/PrintConfig.cpp:305
 msgid "Extrusion axis"
-msgstr "Extrusion axis"
-
+msgstr "Eix d'extrusió"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:306
 msgid ""
 "Use this option to set the axis letter associated to your printer's extruder "
