@@ -492,18 +492,18 @@ msgstr ""
 #: xs/src/libslic3r/PrintConfig.cpp:305
 msgid "Extrusion axis"
 msgstr "Eix d'extrusió"
-#CHECKPOINT
+
 #: xs/src/libslic3r/PrintConfig.cpp:306
 msgid ""
 "Use this option to set the axis letter associated to your printer's extruder "
 "(usually E but some printers use A)."
 msgstr ""
-"Use this option to set the axis letter associated to your printer's extruder "
-"(usually E but some printers use A)."
+"Utilitza aquesta opció per establir la lletra associada a l'eix de l'extrusor "
+"de la teva impressora (generalment E però algunes utilitzen l'A)."
 
 #: xs/src/libslic3r/PrintConfig.cpp:311
 msgid "Extrusion multiplier"
-msgstr "Extrusion multiplier"
+msgstr "Multiplicador d'extrusió"
 
 #: xs/src/libslic3r/PrintConfig.cpp:312
 msgid ""
@@ -512,38 +512,40 @@ msgid ""
 "Usual values are between 0.9 and 1.1. If you think you need to change this "
 "more, check filament diameter and your firmware E steps."
 msgstr ""
-"This factor changes the amount of flow proportionally. You may need to tweak "
-"this setting to get nice surface finish and correct single wall widths. "
-"Usual values are between 0.9 and 1.1. If you think you need to change this "
-"more, check filament diameter and your firmware E steps."
+"Aquest factor canvia la quantitat de flux proporcionalment. És possible que "
+"necessitis ajustar aquest paràmetre per aconseguir un bon acaba superficial i "
+"corregir l'amplada de parets individuals. Els valors habituals són entre 0.9 i "
+"1.1. Si creus que necessites canviar més això, marca el diàmetre del filament "
+"i els passos del motor E al teu firmware."
 
 #: xs/src/libslic3r/PrintConfig.cpp:321
 msgid "Default extrusion width"
-msgstr "Default extrusion width"
+msgstr "Ample d'extrusió per defecte"
 
 #: xs/src/libslic3r/PrintConfig.cpp:324
 msgid ""
 "Set this to a non-zero value to set a manual extrusion width. If expressed "
 "as percentage (for example: 230%) it will be computed over layer height."
 msgstr ""
-"Set this to a non-zero value to set a manual extrusion width. If expressed "
-"as percentage (for example: 230%) it will be computed over layer height."
+"Estableix això a un valor diferent de zero per assignar un ample d'extrusió "
+"manual. Si ho expresses com a percentatge (per exemple 230%) això computarà "
+"sobre l'altura de capa."
 
 #: xs/src/libslic3r/PrintConfig.cpp:333
 msgid "Keep fan always on"
-msgstr "Keep fan always on"
+msgstr "Mantenir el ventilador sempre encès"
 
 #: xs/src/libslic3r/PrintConfig.cpp:334
 msgid ""
 "If this is enabled, fan will never be disabled and will be kept running at "
 "least at its minimum speed. Useful for PLA, harmful for ABS."
 msgstr ""
-"If this is enabled, fan will never be disabled and will be kept running at "
-"least at its minimum speed. Useful for PLA, harmful for ABS."
+"Si això és activat, el ventilador no es desactivar mai i es mantindrà en "
+"funcionament com a mínim a la seva velocitat mínima. Útil per PLA, perjudicial per ABS."
 
 #: xs/src/libslic3r/PrintConfig.cpp:339
 msgid "Enable fan if layer print time is below"
-msgstr "Enable fan if layer print time is below"
+msgstr Activa el ventilador si apareix a sota el temps d'impressió per capa"
 
 #: xs/src/libslic3r/PrintConfig.cpp:340
 msgid ""
@@ -551,9 +553,9 @@ msgid ""
 "enabled and its speed will be calculated by interpolating the minimum and "
 "maximum speeds."
 msgstr ""
-"If layer print time is estimated below this number of seconds, fan will be "
-"enabled and its speed will be calculated by interpolating the minimum and "
-"maximum speeds."
+"Si el temps d'impressió per capa s'estima inferior a aquest nombre en segons, "
+"el ventilador s'activarà i la seva velocitat es calcularà interpolant les "
+"seves velocitats mínimes i màximes."
 
 #: xs/src/libslic3r/PrintConfig.cpp:349
 msgid "Color"
@@ -561,19 +563,19 @@ msgstr "Color"
 
 #: xs/src/libslic3r/PrintConfig.cpp:350
 msgid "This is only used in the Slic3r interface as a visual help."
-msgstr "This is only used in the Slic3r interface as a visual help."
+msgstr "Això noms s'utilitza a la nterfcie de l'Slic3r com ajuda visual."
 
 #: xs/src/libslic3r/PrintConfig.cpp:360
 msgid "Filament notes"
-msgstr "Filament notes"
+msgstr "Notes del filament"
 
 #: xs/src/libslic3r/PrintConfig.cpp:361
 msgid "You can put your notes regarding the filament here."
-msgstr "You can put your notes regarding the filament here."
+msgstr "Pots introduir aqu les teves notes pel que fa al filament."
 
 #: xs/src/libslic3r/PrintConfig.cpp:373 xs/src/libslic3r/PrintConfig.cpp:752
 msgid "Max volumetric speed"
-msgstr "Max volumetric speed"
+msgstr "Velocitat volumètrica màxima"
 
 #: xs/src/libslic3r/PrintConfig.cpp:374
 msgid ""
@@ -581,13 +583,13 @@ msgid ""
 "volumetric speed of a print to the minimum of print and filament volumetric "
 "speed. Set to zero for no limit."
 msgstr ""
-"Maximum volumetric speed allowed for this filament. Limits the maximum "
-"volumetric speed of a print to the minimum of print and filament volumetric "
-"speed. Set to zero for no limit."
+"Velocitat volumètrica màxima permesa per aquest filament. Limita la "
+"velocitat volumètrica màxima d'una impressió al mínim de la velocitat "
+"volumètrica de la impressió i el filament. Introdueix zero per no establir límit."
 
 #: xs/src/libslic3r/PrintConfig.cpp:385
 msgid "Diameter"
-msgstr "Diameter"
+msgstr "Diàmetre"
 
 #: xs/src/libslic3r/PrintConfig.cpp:386
 msgid ""
@@ -610,10 +612,10 @@ msgid ""
 "the length to volume. Better is to calculate the volume directly through "
 "displacement."
 msgstr ""
-"Enter your filament density here. This is only for statistical information. "
-"A decent way is to weigh a known length of filament and compute the ratio of "
-"the length to volume. Better is to calculate the volume directly through "
-"displacement."
+"Introdueix la densitat del teu filament aquí. Això és només per a informació "
+"estadstica. Una bona forma d'esbrinar-ho és pesar una longitud coneguda de filament "
+"i calcular-ho en funció del diàmetre del fragment. Una solució millor és calcular "
+"el volum directament mitjançant desplaçament."
 
 #: xs/src/libslic3r/PrintConfig.cpp:409
 msgid "Cost"
@@ -624,18 +626,18 @@ msgid ""
 "Enter your filament cost per kg here. This is only for statistical "
 "information."
 msgstr ""
-"Enter your filament cost per kg here. This is only for statistical "
-"information."
+"Introdueix aqu el cost per kg del teu filament. Això és només "
+"informació estadística."
 
 # Set this to be the local currency symbol.
 #: xs/src/libslic3r/PrintConfig.cpp:411
 msgid "money/kg"
-msgstr "$/kg"
+msgstr "€/kg"
 
 #: xs/src/libslic3r/PrintConfig.cpp:424
 msgid "Fill angle"
-msgstr "Fill angle"
-
+msgstr "Angle d'ompliment"
+#CHECKPOINT
 #: xs/src/libslic3r/PrintConfig.cpp:426
 msgid ""
 "Default base angle for infill orientation. Cross-hatching will be applied to "
